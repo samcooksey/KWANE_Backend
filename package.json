@@ -1,0 +1,26 @@
+{
+  "name": "kwane_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samcooksey/KWANE_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samcooksey/KWANE_Backend/issues"
+  },
+  "homepage": "https://github.com/samcooksey/KWANE_Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "knex": "^0.12.0",
+    "path": "^0.12.7",
+    "pg": "^6.1.0"
+  }
+}
