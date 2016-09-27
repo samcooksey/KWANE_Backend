@@ -3,7 +3,7 @@ var router = require('express').Router();
 var knex = require('../db/knex');
 var http = require('http');
 
-var url = process.env.url;
+var url = process.env.SITE_URL;
 router.get('/', function(req, res, next){
 res.json('spun up');
 });
