@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var path = require('path');
 var cors = require('cors');
 
-var port = process.env.NODE_PORT || 3000;
+var port = process.env.PORT || 3000;
 var app = express();
 
 require('dotenv').config();
